@@ -1,0 +1,57 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Eye-catching font */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  header {
+    background: #222; /* Darker background for the header */
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  nav ul {
+    float: right;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background: #222; /* Darker background for the footer */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
